@@ -1263,7 +1263,7 @@ h2 span.large {
 
 @media (min-width:996px) and (max-width:1100px) {}
 
-@media(min-width:1024px) {
+@media(min-width:992px) {
     .sticky-img img {
         position: -webkit-sticky;
         position: sticky;
