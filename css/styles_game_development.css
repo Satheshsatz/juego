@@ -1270,3 +1270,12 @@ h2 span.large {
         top: 0;
     }
 }
+
+@media only screen and (min-width:992px) {
+    .gd .card.serv-box {
+        position: relative;
+        padding: 40px 20px 0px !important;
+        z-index: 1;
+        width: 80%;
+    }
+}
