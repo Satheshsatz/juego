@@ -156,6 +156,10 @@ h2 span.text-orange {
     line-height: 1.1;
 }
 
+.w-65 {
+    width: 65% !important;
+}
+
 .w-85 {
     width: 85% !important;
 }
