@@ -1071,7 +1071,7 @@ h2 span.large {
         transition: 0.5s;
     }
     .text-big {
-        font-size: 18px;
+        font-size: 22px;
     }
     .quote h2.title:before {
         left: -35px;
@@ -1290,5 +1290,8 @@ h2 span.large {
 @media (max-width:991px) and (min-width:768px) {
     h2.title {
         font-size: 50px !important;
+    }
+    h2 span.text-orange {
+        font-size: 55px !important;
     }
 }
