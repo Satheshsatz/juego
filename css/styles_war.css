@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+body {
+    font-family: rajdhani, sans-serif;
+    margin: 0;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+*,
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.main-banner {
+    background: url(../img/banner-medal-of-war.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    z-index: 1;
+    padding: 20px 0 0;
+    display: grid;
+    align-content: end;
+}
+
+.main-banner:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), transparent);
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.main-banner h1 {
+    font-size: 60px;
+}
+
+.text-orange {
+    color: #f7b12d!important;
+}
+
+.dark-text {
+    color: #4b535a;
+}
+
+.main-banner p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2.title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+h2 span.text-orange {
+    font-size: 60px !important;
+}
+
+.anc-text {
+    background: #f7b12d;
+    color: #fff;
+    width: fit-content !important;
+    padding: 10px 40px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+}
+
+.anc-text a {
+    font-size: 24px !important;
+    font-weight: 500;
+}
+
+.anc-text a i {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.anc-text a i:first-child {
+    opacity: 0.5;
+}
+
+.row.bg-black {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+    justify-content: center;
+    border: 2px solid #000;
+}
+
+.title-row p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.boxes p {
+    color: #4b535a;
+}
+
+.boxes h3 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.card-box {
+    overflow: hidden;
+}
+
+.card-box h3 {
+    font-size: 36px;
+}
+
+.card-box:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: #f7b12d;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 50px 50px 0 0;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 70%, 0 100%);
+    -webkit-border-radius: 50px 50px 0 0;
+    -moz-border-radius: 50px 50px 0 0;
+    -ms-border-radius: 50px 50px 0 0;
+    -o-border-radius: 50px 50px 0 0;
+}
+
+.card-desc {
+    background: linear-gradient(217deg, #ddd, #fff);
+    border-radius: 30px;
+    border: 3px solid #fff;
+    padding: 40px 40px;
+    border-bottom-color: #ddd;
+    border-left-color: #bbb;
+    border-right-color: #eee;
+    height: 485px;
+}
+
+.iconw img {
+    width: 75%;
+}
+
+.img1,
+.img3 {
+    transform: scaleX(-1) scaleY(-1);
+    -webkit-transform: scaleX(-1) scaleY(-1);
+}
+
+.icon-txt h4 {
+    font-size: 30px;
+}
+
+.icon-txt p {
+    font-size: 24px;
+}
+
+.feat-list li {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4b535a;
+    padding-bottom: 15px;
+}
+
+.desc1 {
+    padding: 40px 20px;
+    height: 485px;
+    overflow: auto;
+}
+
+.desc1::-webkit-scrollbar {
+    width: 3px;
+    border-radius: 20px;
+}
+
+.desc1::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.desc1 ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px;
+}
+
+@media(max-width:767px) {
+    .main-banner {
+        background: url(../img/mobile-banner.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .main-banner h1 {
+        font-size: 36px;
+    }
+    .anc-text {
+        padding: 7px 30px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+    }
+    .anc-text a {
+        font-size: 20px !important;
+        font-weight: 500;
+    }
+    h2.title {
+        font-size: 40px;
+    }
+    h2 span.text-orange {
+        font-size: 50px !important;
+    }
+    .card-box {
+        padding: 20px;
+    }
+    .card-desc {
+        height: auto !important;
+        padding: 40px 25px;
+    }
+    .icon-txt h4 {
+        font-size: 26px;
+    }
+    .icon-txt p {
+        font-size: 18px;
+    }
+}
