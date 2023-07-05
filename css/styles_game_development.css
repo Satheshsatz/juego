@@ -1261,8 +1261,6 @@ h2 span.large {
     }
 }
 
-@media (min-width:996px) and (max-width:1100px) {}
-
 @media(min-width:992px) {
     .sticky-img img {
         position: -webkit-sticky;
@@ -1271,11 +1269,14 @@ h2 span.large {
     }
 }
 
-@media only screen and (min-width:992px) {
+@media (max-width:1100px) and (min-width:992px) {
     .gd .card.serv-box {
         position: relative;
         padding: 40px 20px 0px !important;
         z-index: 1;
         width: 80%;
+    }
+    .gd .card.serv-box h3 {
+        font-size: 30px;
     }
 }
